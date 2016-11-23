@@ -9,4 +9,13 @@ def grabartxt():
         archi.write('Lizeth')
         archi.write('David')
         archi.close()
+
+def leertxt():
+    archi=open('datos.txt','r')
+    linea=arch.readline()
+    while linea!="":
+        print (linea)
+        linea=archi.readline()
+        arch.close()
         
+
