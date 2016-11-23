@@ -17,5 +17,11 @@ def leertxt():
         print (linea)
         linea=archi.readline()
         arch.close()
+
+def leertxtenlista():
+        archivo=open('datos.txt','r')
+        lineas=archi.readlines()
+        print lineas
+archi.close()
         
 
